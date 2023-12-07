@@ -9,3 +9,16 @@ Replace <password> in the mongodb connection string with the password for the
 tjayhoover user.
 
 You should now have access to the database
+
+
+**Schema Example**
+
+publisher: "CNN"
+
+title: "Political News"
+
+authors: Array (3)
+
+tags: Array (3)
+
+date: "2023-12-07"
