@@ -1,0 +1,7 @@
+# example query: print all articles published by CNN
+cnnquery = { "publisher": "CNN" }
+
+cnndocs = articles.find(cnnquery)
+
+for x in cnndocs:
+  print(x)
