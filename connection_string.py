@@ -1,1 +1,1 @@
-connection_string = "mongodb+srv://tjayhoover:<pMWBuWsce7OZQxyP>@cluster0.vlaxdey.mongodb.net/?retryWrites=true&w=majority"
+connection_string = "mongodb+srv://tjayhoover:<password>@cluster0.vlaxdey.mongodb.net/?retryWrites=true&w=majority"
