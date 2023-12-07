@@ -7,3 +7,5 @@ item_details = articles.find()
 for item in item_details:
    # This does not give a very readable output
    print(item)
+
+print("Exiting")
