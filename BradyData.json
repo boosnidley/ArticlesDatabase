@@ -1,1 +1,73 @@
+[
+  {
+    "publisher": "ABC News",
+    "title": "Breaking",
+    "authors": ["Author1", "Author2", "Author3"],
+    "tags": ["Politics", "News", "Affairs"],
+    "date": "2023-11-15"
+  },
+  {
+    "publisher": "BBC News",
+    "title": "Global",
+    "authors": ["ReporterA", "ReporterB", "ReporterC"],
+    "tags": ["Government", "Elections", "Policy"],
+    "date": "2023-10-22"
+  },
+  {
+    "publisher": "Reuters",
+    "title": "Insights",
+    "authors": ["JournalistX", "JournalistY", "JournalistZ"],
+    "tags": ["Campaigns", "Legislation", "Analysis"],
+    "date": "2023-09-08"
+  },
+  {
+    "publisher": "CNBC",
+    "title": "Leadership",
+    "authors": ["Correspondent1", "Correspondent2", "Correspondent3"],
+    "tags": ["Leadership", "Relations", "Opinion"],
+    "date": "2023-12-01"
+  },
+  {
+    "publisher": "The Guardian",
+    "title": "Policy",
+    "authors": ["ContributorA", "ContributorB", "ContributorC"],
+    "tags": ["Policy", "Affairs", "News"],
+    "date": "2023-10-17"
+  },
+  {
+    "publisher": "Al Jazeera",
+    "title": "Political",
+    "authors": ["Writer1", "Writer2", "Writer3"],
+    "tags": ["Commentary", "Issues", "Decisions"],
+    "date": "2023-11-30"
+  },
+  {
+    "publisher": "Fox News",
+    "title": "Global",
+    "authors": ["PoliticalAnalystA", "PoliticalAnalystB", "PoliticalAnalystC"],
+    "tags": ["Affairs", "Politics", "Debates"],
+    "date": "2023-09-14"
+  },
+  {
+    "publisher": "Bloomberg",
+    "title": "Under",
+    "authors": ["InvestigativeJournalist1", "InvestigativeJournalist2", "InvestigativeJournalist3"],
+    "tags": ["Corruption", "Investigations", "Accountability"],
+    "date": "2023-11-05"
+  },
+  {
+    "publisher": "MSNBC",
+    "title": "Political",
+    "authors": ["PoliticalCommentatorX", "PoliticalCommentatorY", "PoliticalCommentatorZ"],
+    "tags": ["Debates", "Policy", "Opinions"],
+    "date": "2023-10-10"
+  },
+  {
+    "publisher": "The New York Times",
+    "title": "Strategic",
+    "authors": ["Expert1", "Expert2", "Expert3"],
+    "tags": ["Strategies", "Updates", "Trends"],
+    "date": "2023-11-22"
+  }
+]
 
