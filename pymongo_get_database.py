@@ -1,7 +1,6 @@
 from pymongo import MongoClient
 from connection_string import connection_string
 
-
 def get_database():
  
    # Provide the mongodb atlas url to connect python to mongodb using pymongo

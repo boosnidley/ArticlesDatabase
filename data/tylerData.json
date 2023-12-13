@@ -1,11 +1,72 @@
-{
+[
     {
-        "publisher": "example publisher",
-        "title": "example title",
-        
-
+      "publisher": "Lancaster Newspaper",
+      "title": "Lancaster Car Crash",
+      "authors": ["David", "Becky"],
+      "tags": ["Transportation", "Traffic", "Cars"],
+      "date": "2021-9-5"
     },
     {
-
+      "publisher": "Meateater",
+      "title": "New Public Land Acquisition",
+      "authors": ["Seth", "Steve"],
+      "tags": ["Conservation", "Hunting", "Public Lands"],
+      "date": "2023-11-6"
     },
-}
+    {
+      "publisher": "Nintendo Life",
+      "title": "Switch 2 Rumors",
+      "authors": ["Arlo", "Nate", "Wolff"],
+      "tags": ["Gaming", "Nintendo", "Rumors"],
+      "date": "2023-12-13"
+    },
+    {
+      "publisher": "The Epoch Times",
+      "title": "2023 Corruption Report",
+      "authors": ["Matt"],
+      "tags": ["Politics", "Opinion"],
+      "date": "2023-12-10"
+    },
+    {
+      "publisher": "The New York Post",
+      "title": "Are the Jets Trying to Lose?",
+      "authors": ["Portnoy", "Cone"],
+      "tags": ["Sports", "New York Jets", "Football"],
+      "date": "2019-9-30"
+    },
+    {
+      "publisher": "AccuWeather",
+      "title": "Winter Freeze in the Northeast",
+      "authors": ["Ed", "Molly"],
+      "tags": ["Weather", "Winter", "Northeast"],
+      "date": "2022-01-30"
+    },
+    {
+      "publisher": "CNN",
+      "title": "Exam Week Stress",
+      "authors": ["Rover", "Madison"],
+      "tags": ["Education", "College", "Culture"],
+      "date": "2023-05-07"
+    },
+    {
+      "publisher": "The Botschaft",
+      "title": "New Church Being Established in Ohio",
+      "authors": ["Stoltzfus", "Martin", "Shirk"],
+      "tags": ["Religion", "Culture"],
+      "date": "2005-11-05"
+    },
+    {
+      "publisher": "National Review",
+      "title": "New Supreme Court Justice Nominated",
+      "authors": ["Cena", "Shapiro", "Destiny"],
+      "tags": ["Politics", "Law", "Opinion"],
+      "date": "2016-9-9"
+    },
+    {
+      "publisher": "Chicago Tribune",
+      "title": "Cubs Win it All!",
+      "authors": ["Eric", "Legend"],
+      "tags": ["Sports", "Baseball", "Chicago", "MLB", "World Series", "Kyle Schwarber"],
+      "date": "2016-11-11"
+    }
+]

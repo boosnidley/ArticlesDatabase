@@ -1,16 +1,36 @@
 # Get the database using the method we defined in pymongo_test_insert file
 from pymongo_get_database import get_database
 
-from example_queries import cnn_example_query
+# Import the queries
+from queries.TylerQuery import date_query
+from queries.BradyQuery import tag_query
 
+# Initialize database connection
 dbname = get_database()
 articles = dbname["articles"]
- 
-# item_details = articles.find()
-# for item in item_details:
-#    # This does not give a very readable output
-#    print(item)
 
-cnn_example_query(articles)
+# Main program loop
+while(True):
+    print("Welcome to NewsQuery! Choose one of the following options:")
+    print("(1) Query news articles by date.")
+    print("(2) Query news articles by topic.")
+    print("(q) Quit.")
 
-print("Exiting")
+    response = input()
+
+    if(response == '1'):
+        date = input("Enter the date you want to search by in the following format: yyyy-mm-dd\n")
+        try:
+           date_query(articles, date)
+        except:
+            print("Failure. Ensure the date format was correct and you have a network connection.")
+    elif(response == '2'):
+        topic = input("Enter the topic you want to search by\n")
+        try:
+           tag_query(articles, topic)
+        except:
+            print("Failure. Ensure you have a network connection.")
+    elif(response =='q'):
+        break
+
+print("Thank you!")
