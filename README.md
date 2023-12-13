@@ -17,7 +17,7 @@ When you run the application, you will have a choice between three queries. Enjo
     title: String,
     authors: String[],
     tags: String[],
-    date: String
+    date: String ("yyyy-mm-dd")
 }
 
 Example:
