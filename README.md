@@ -1,24 +1,31 @@
-# databases-project-2-group-4
-Tyler, Brady, and Ian databases project #2.
+## Databases Project 2
+### Group 4: Brady, Ian, and Tyler
 
 To run this code, first create a virtual environment.
 
-Then run `python -m pip install "pymongo[srv]"` to install the python mongodb library.
+Then run `python -m pip install "pymongo[srv]"` to install the python mongodb library in your virtual environment. Create a file in the project called "password.py" and create a variable inside that file called "password" and set it equal to your password to access the mongodb instance.
 
-Replace <password> in the mongodb connection string with the password for the
-tjayhoover user.
+The connection string file contains the connection string with a reference to the password you just created. You should now have access to the database. If you have trouble with access, contact Tyler.
 
-You should now have access to the database
+When you run the application, you will have a choice between three queries. Enjoy!
 
 
-**Schema Example**
+### Database Schema
 
-publisher: "CNN"
+{
+    publisher: String,
+    title: String,
+    authors: String[],
+    tags: String[],
+    date: String
+}
 
-title: "Political News"
+Example:
 
-authors: Array (3)
-
-tags: Array (3)
-
-date: "2023-12-07"
+{
+    publisher: "CNN",
+    title: "Today on the Hill",
+    authors: ["Bubba", "Sally"],
+    tags: ["Politics", "USA", "News"],
+    date: "2023-12-07"
+}
