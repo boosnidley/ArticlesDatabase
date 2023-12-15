@@ -1,6 +1,5 @@
-from helper import print_articles
 
 def tag_query(container , tag):
   tagQuery = { "tags": { "$regex": tag, "$options": "i" } }
-  docs = container.find(tagQuery)
-  print_articles(docs)
+  results = container.find(tagQuery)
+  return [record for record in results]

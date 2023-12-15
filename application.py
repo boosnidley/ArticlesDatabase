@@ -5,10 +5,12 @@ from pymongo_get_database import get_database
 from queries.TylerQuery import date_query
 from queries.BradyQuery import tag_query
 from queries.IanQuery import publisher_query
+from helpers import print_articles, bookmark_article
 
 # Initialize database connection
 dbname = get_database()
 articles = dbname["articles"]
+bookmarks = dbname["bookmarks"]
 
 # Main program loop
 while(True):
@@ -16,6 +18,7 @@ while(True):
     print("(1) Query news articles by date.")
     print("(2) Query news articles by topic.")
     print("(3) Query news articles by publisher.")
+    print("(4) View bookmarked articles.")
     print("(q) Quit.")
 
     response = input()
@@ -23,19 +26,30 @@ while(True):
     if(response == '1'):
         date = input("Enter the date you want to search by in the following format: yyyy-mm-dd\n")
         try:
-           date_query(articles, date)
+            results = date_query(articles, date)
+            print_articles(results)
+            bookmark_article(results, bookmarks)
         except:
             print("Failure. Ensure the date format was correct and you have a network connection.")
     elif(response == '2'):
         topic = input("Enter the topic you want to search by\n")
         try:
-           tag_query(articles, topic)
+            results = tag_query(articles, topic)
+            print_articles(results)
+            bookmark_article(results, bookmarks)
         except:
             print("Failure. Ensure you have a network connection.")
     elif(response == '3'):
         publisher = input("Enter the publisher you want to search by\n")
         try:
-           publisher_query(articles, publisher)
+            results = publisher_query(articles, publisher)
+            print_articles(results)
+            bookmark_article(results, bookmarks)
+        except:
+            print("Failure. Ensure you have a network connection.")
+    elif(response == '4'):
+        try:
+            print_articles(bookmarks.find())
         except:
             print("Failure. Ensure you have a network connection.")
     elif(response =='q'):
