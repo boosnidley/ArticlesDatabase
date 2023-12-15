@@ -7,7 +7,7 @@ Then run `python -m pip install "pymongo[srv]"` to install the python mongodb li
 
 The connection string file contains the connection string with a reference to the password you just created. You should now have access to the database. If you have trouble with access, contact Tyler.
 
-When you run the application, you will have a choice between three queries. Enjoy!
+The application allows you to query a sample news article database. You can bookmark articles that you find interesting and view your bookmarks at any time. Enjoy!
 
 
 ### Database Schema
